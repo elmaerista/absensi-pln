@@ -1,0 +1,16 @@
+ABSENSI MAGANG UP3 SERPONG
+
+1. Copy folder absensi-pln ke /Applications/XAMPP/htdocs/
+2. Start Apache + MySQL di XAMPP.
+3. Buka http://localhost/phpmyadmin/
+4. Import database/schema.sql
+5. Cek config.php:
+   dbHost = 127.0.0.1
+   dbName = absensi_pln
+   dbUser = root
+   dbPass = (kosong jika default XAMPP)
+6. Buka:
+   http://localhost/absensi-pln/public/
+
+Baca README.md untuk langkah lengkap, troubleshooting, perbedaan database/flowchart,
+OTP lokal, kamera, geolocation, dan cara mengembangkan ke production.
